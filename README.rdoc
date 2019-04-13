@@ -48,7 +48,6 @@ Note the addition of the line:
 
     self.primary_keys = :user_id, :group_id
 
-
 A model associated with a composite key model is defined like this:
 
   class MembershipStatus < ActiveRecord::Base
